@@ -1,0 +1,20 @@
+{
+    "name": "leongrdic/payment-barcode",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leon",
+            "email": "leongrdic@gmail.com"
+        }
+    ],
+    "require": {
+        "bigfish/pdf417": "^0.3",
+        "globalcitizen/php-iban": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Le\\PaymentBarcodeGenerator\\": "src/"
+        }
+    }
+}
