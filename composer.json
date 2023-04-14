@@ -9,7 +9,9 @@
         }
     ],
     "require": {
-        "bigfish/pdf417": "^0.3",
+        "php": "^8.1",
+        "ext-mbstring": "*",
+        "leongrdic/pdf417": "^1.0",
         "globalcitizen/php-iban": "^4.2"
     },
     "autoload": {

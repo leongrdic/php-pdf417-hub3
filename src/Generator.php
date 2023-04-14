@@ -2,7 +2,7 @@
 
 namespace Le\PaymentBarcodeGenerator;
 
-use BigFish\PDF417\{PDF417, RendererInterface, Renderers\SvgRenderer};
+use Le\PDF417\{PDF417, Renderer\RendererInterface, Renderer\SvgRenderer};
 
 class Generator
 {
